@@ -1,15 +1,7 @@
 # thumb wheel up => next page
-"xdotool key Alt_L+Right"
+"xte 'key XF86AudioRaiseVolume'"            
    b:6                                   
                                         
 # thumb wheel down => previous page       
-"xdotool key Alt_L+Left"      
-   b:7                                   
-                                        
-# backward button => volume down
 "xte 'key XF86AudioLowerVolume'"              
-   b:8                                   
-                                        
-# forward button => volume up         
-"xte 'key XF86AudioRaiseVolume'"            
-   b:9
+   b:7                                   
